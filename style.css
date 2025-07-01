@@ -1,62 +1,83 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
 body {
-  background: #D4A76A;
+  background: #D4A76A; /* tan/brown */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.main {
-  background: #D4A76A;
-  height: 600px;
+header {
+  background: #f7d6a1;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2px solid #7c5a2e;
+  gap: 400px;
 }
 
-button {
-  background: #805215;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.btnBox {
-  background: #805215;
-  color: white;
-  width: 100%;
-
-}
-
-
-.box1 {
-  /*width: 100%;*/
-  width: 300px;
-  height: 150px;
-  padding: 5%;
-  background: white;
-}
-
-.box2 {
-  height: 30%;
-  background: white;
-}
-
-.header {
-  width: 100%;
-  background-color: #FFDBAA;
-}
-
-h1 {
+header h1 {
   color: #553100;
-  font-size: 36px;
 }
 
-h2 {
+nav {
+  display: flex;
+  gap: 25px;
+  border: 0;
+  padding: 0;
+}
+
+nav button {
+  width: 100px;
+  height: 50px;
+  font-weight: bolder;
+  color: white;
+  background-color: #7c5a2e
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  padding: 3em;
+}
+
+.card1 {
+  flex: 0.75;
+  padding: 3em;
+  height: 200px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.card2 {
+  background-color: white;
+  flex: 0.75;
+  height: 200px;
+  gap: 50px;
+  padding: 3em;
+  width: 1200px;
+  border-radius: 3px;
   text-align: center;
 }
 
-table {
-  align-items: center;
-  width: 100%;
-  column-width: 300px;
-  padding-block: 10px;
+p {
+  display: inline-block;
+  text-align: left;
+}
+
+header h1 {
+  gap: 30px;
+} 
+
+section button {
+  width: 200px;
+  height: 60px;
+  background-color: #7c5a2e;
+  color: white;
 }
